@@ -13,6 +13,7 @@
     object-fit: contain;
     margin: 10px 10px;
     border-radius: 5px;
+    display: flex;
 }
 
 .header__search{
@@ -27,6 +28,7 @@
     width: 3000px;
     height: 25px;
     border-radius: 5px;
+    display: flex;
 }
 
 .header__nav{
@@ -44,11 +46,13 @@
 
 .header__optionLineOne{
     font-size: 10px;
+    display: flex;
 }
 
 .header__optionLineTwo{
     font-size: 13px;
     font-weight: 800;
+    display: flex;
 }
 
 .header__optionBasket{
@@ -59,14 +63,17 @@
 
 .header__basketCount{
     margin-left: 10px;
+    display: flex;
 }
 
 .basket__icon{
     width: 20%;
     margin-left: 10px;
+    display: flex;
 }
 
 .search__icon{
     width: 32px;
     padding-right: 10px;
+    display: flex;
 }
