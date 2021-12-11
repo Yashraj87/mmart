@@ -1,0 +1,30 @@
+.checkout{
+    display: flex;
+    background-color: rgb(98, 209, 153);
+}
+
+.checkout__ad{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid #691757;
+    border-radius: 20px;
+}
+.checkout__left{
+
+}
+
+.checkout__right{
+    align-items: center;
+    padding: 10px;
+}
+
+.checkout__title{
+    margin-right: 15px;
+    padding: 15px;
+    border-bottom:1px solid rgb(181, 228, 107);
+}
+
+.total1{
+    border-bottom:1px solid darkorange;
+    border-top:1px solid darkorange;
+}

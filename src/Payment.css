@@ -1,0 +1,62 @@
+.pay{
+    background-color: blanchedalmond;
+    color: blue;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 0;
+    
+}
+
+.payhead{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-bottom: 1px solid rgb(223, 174, 100);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.del{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid rgb(224, 158, 59);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rev{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid rgb(250, 206, 12);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.total{
+    border:1px solid #333 ;
+    border-radius: 5px;
+    margin-right: 700px;
+    align-self: center;
+    padding-left: 30px;
+}
+
+.buy{
+    background-color: rgb(255, 166, 0);
+    font-weight: 500;    
+    color: rgb(0, 0, 0);
+    size: 200;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.c{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 600px;
+}
