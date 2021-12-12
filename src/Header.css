@@ -1,8 +1,9 @@
 .header{
     height: 60px;
     display: flex;
+    
     align-items: center;
-    background-color:rgb(90, 216, 238);
+    background-color:rgb(90, 15, 134);
     top: 0;
     z-index: 100;
     
@@ -11,9 +12,9 @@
 .header__logo{
     width: 100px;
     object-fit: contain;
-    margin: 10px 10px;
     border-radius: 5px;
     display: flex;
+    padding: 5px;
 }
 
 .header__search{
@@ -22,6 +23,7 @@
     align-items: center;
     border-radius: 24px;
     width: 100px;
+    padding: 5px;
 }
 
 .header__searchInput{
@@ -29,11 +31,13 @@
     height: 25px;
     border-radius: 5px;
     display: flex;
+    padding: 5px;
 }
 
 .header__nav{
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
 }
 
 .header__option{
@@ -42,28 +46,33 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    padding: 5px;
 }
 
 .header__optionLineOne{
     font-size: 10px;
     display: flex;
+    padding: 1px;
 }
 
 .header__optionLineTwo{
     font-size: 13px;
     font-weight: 800;
     display: flex;
+    padding: 1px;
 }
 
 .header__optionBasket{
     display: flex;
     align-items: center;
     color: white;
+    padding: 5px;
 }
 
 .header__basketCount{
     margin-left: 10px;
     display: flex;
+    padding-left: 3px;
 }
 
 .basket__icon{
@@ -76,4 +85,5 @@
     width: 32px;
     padding-right: 10px;
     display: flex;
+    padding: 5px;
 }

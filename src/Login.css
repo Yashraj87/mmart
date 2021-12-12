@@ -1,5 +1,12 @@
+.log{
+    background-color:rgb(71, 102, 110) ;
+    height: 753px;
+    margin-top: 0px;
+    margin: 0px;
+}
+
 .login{
-    background-color: blanchedalmond;
+    background-color: rgb(212, 235, 129);
     align-items: center;
     margin-left: 500px;
     margin-right: 650px;
@@ -8,21 +15,35 @@
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 30px;
-    border: 5px solid rgb(108, 238, 108);
+    border-right: 5px solid rgb(5, 76, 82);
+    border-bottom: 5px solid rgb(5, 76, 82);
+    border-left: 1px solid rgb(5, 76, 82);
+    border-top: 2px solid rgb(5, 76, 82);
     border-radius: 10px;
+
+}
+
+.name{
+    border-radius: 5px;
+    border-right: 2px solid rgb(218, 46, 46);
+    border-bottom: 2px solid rgb(218, 46, 46);
+    background-color: rgb(230, 133, 43);
 }
 
 .email{
-    border: 2px solid rgb(235, 95, 95);
     border-radius: 5px;
-    background-color: rgb(139, 235, 214);
-    color: black;
+    border-right: 2px solid rgb(218, 46, 46);
+    border-bottom: 2px solid rgb(218, 46, 46);
+    background-color: rgb(230, 133, 43);
+
 }
 
 .pass{
-    border: 2px solid rgb(235, 95, 95);
+    border-right: 2px solid rgb(218, 46, 46);
+    border-bottom: 2px solid rgb(218, 46, 46);
+
     border-radius: 5px;
-    background-color: rgb(139, 235, 214);
+    background-color: rgb(230, 133, 43);
     margin-right: 10px;
 
 }
@@ -35,7 +56,10 @@
 
 .head{
     align-items: center;
-    margin-left: 600px;
+    margin-left: 585px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 50px;
 }
 
 .wel{

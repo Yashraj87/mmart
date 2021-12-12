@@ -34,7 +34,7 @@ function Payment() {
                     <h3><b>Delivery Address</b></h3>
                 </div>
                 <div>
-                    <h4 >B-115 Saraswati bldg Jindal col. no. 2 Vasind</h4>
+                    <h4 >B-115 Saraswati bldg Jindal colony no. 2 Vasind</h4>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@ function Payment() {
                     <h3><b>Payment Details</b></h3>
                 </div>
                 <div>
-                    <form className='c' onSubmit={handleSubmit}>
+                    <form className='cc' onSubmit={handleSubmit}>
                         <CardElement onChange={handleChange}/>
                     </form>
 

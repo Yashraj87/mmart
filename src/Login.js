@@ -7,13 +7,14 @@ import { auth } from './firebaseFolder';
 function Login() {
     const history=useHistory();
     const [email,setEmail]=useState('');
+    const [name,setName]=useState('USER');
     const [pass,setPass]=useState('');
 
     const signIn =e =>{
         e.preventDefault();
 
         auth
-            .signInWithEmailAndPassword(email,pass)
+            .signInWithEmailAndPassword(email,name,pass)
             .then(auth=>{
                 history.push("/")
             
@@ -24,7 +25,7 @@ function Login() {
     const register=e=>{
         e.preventDefault();
         auth
-            .createUserWithEmailAndPassword(email,pass)
+            .createUserWithEmailAndPassword(email,name,pass)
             .then((auth) =>{
                 if(auth){
                     history.push('/')
@@ -34,11 +35,14 @@ function Login() {
     }
 
     return (
-        <div >
-            <h1 className='head'>LOGIN PAGE</h1>
+        <div className='log'>
+            <h1 className='head'>MMART</h1>
             <h2 className='wel'>Enter once and never leave!!</h2>
 
             <div className='login'>
+                <h4>Enter Name</h4>
+                <input type='text' className='name' value={name} onChange=
+                {e =>setName(e.target.value)}></input>
                 <h4>Enter E-mail</h4>
                 <input type='text' className='email' value={email} onChange=
                 {e =>setEmail(e.target.value)}

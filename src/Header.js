@@ -30,7 +30,7 @@ function Header() {
 
                     <div onClick={handleAuth} className='header__option'>
                         <span className='header__optionLineOne'> 
-                            {user? user.email:'Hello Mate!'}
+                            {user? user.name:'Hello Mate!'}
                         </span>
                         <span className='header__optionLineTwo'>
                             {user? 'Sign OUT ': 'Sign IN'}

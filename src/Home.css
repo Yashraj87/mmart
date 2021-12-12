@@ -1,9 +1,8 @@
 .home__container{
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1500px;
+    margin: 0px;
+    max-width: 1520px;
 }
 
 .home__row{
@@ -19,4 +18,5 @@
     z-index: -1;
     margin-bottom: -150px;
     mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    max-height: 500px;
 }

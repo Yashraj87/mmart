@@ -10,12 +10,17 @@
     border-radius: 20px;
 }
 .checkout__left{
+    border-right:1px solid rgb(181, 228, 107);
+    padding-right: 30px;
+    padding: 10px;
 
 }
 
 .checkout__right{
     align-items: center;
-    padding: 10px;
+    padding-top: 240px;
+    padding-left: 130px;
+    font-size: 25px;
 }
 
 .checkout__title{
